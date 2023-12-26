@@ -1,0 +1,13 @@
+import React from 'react'
+
+const Loading = ({theme}) => {
+  return (
+    <div className='d-flex justify-content-center m-auto'>
+        <div className={`loading spinner-border text-${theme || "succes"}`}>
+
+        </div>
+    </div>
+  )
+}
+
+export default Loading

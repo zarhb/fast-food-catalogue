@@ -1,0 +1,17 @@
+
+.card {
+    opacity: 0;
+}
+.card_placeholder {
+    height: 280px;
+    animation: image-loading 1s linear infinite alternate;
+};
+
+@keyframes image-loading {
+    0%{
+        background-color: hsl(200,20%,80%);
+    }
+    100%{
+        background-color: hsl(200,20%,95%);
+    }
+};
